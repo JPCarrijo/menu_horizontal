@@ -1,0 +1,43 @@
+.inicio, .parceiros, .cursos, .contatos, .missao, .sobre {
+  padding-left: 40vh;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 30px;
+
+
+}
+
+.inicio {
+  height: 40vh;
+  border: 1px solid black;
+  background-color: silver;
+}
+
+.parceiros {
+  height: 60vh;
+  border: 1px solid black;
+  background-color: burlywood;
+}
+
+.cursos {
+  height: 70vh;
+  border: 1px solid black;
+  background-color: yellow;
+}
+
+.contatos {
+  height: 20vh;
+  border: 1px solid black;
+  background-color: green;
+}
+
+.missao {
+  height: 20vh;
+  border: 1px solid black;
+  background-color:  cyan;
+}
+
+.sobre {
+  height: 40vh;
+  border: 1px solid silver;
+  background-color: brown;
+}
