@@ -1,45 +1,74 @@
-#inicio, #parceiros, #cursos, #contatos, #missao, #sobre, .footer, .menu, .irTopo, .irInicio, .irContatos, .irCursos {
-  font-family: 'Franklin Gothic Medium';
-  font-size: 30px;
-  text-align: center;
-  border: 1px solid black;
-}
-
 /* Configuração do Menu Horizontal */
 
 .menu {
   height: 40px;
   border: 1px solid rgb(214, 46, 16);
-  background-color: beige;
-  padding-bottom: 8px;
+  background-color: rgb(231, 231, 164);
+  padding-bottom: 10px;
+  margin-top: -8px;
   font-size: 16px;
 }
 
 .navMenu ul {
-  list-style: none;
   text-align: left;
+  margin-left: -40px;
 }
 
 .navMenu li {
   display: inline;
+  padding: 30px;
 }
 
 .navMenu ul li a {
-  padding-left: 1vw;
+  padding-left: 2vw;
   display: inline-block;
   color: #333;
   text-decoration: none;
 }
 
 .navMenu ul li a:hover {
-  color: blue;
+  color: darkgreen;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 25px;
+  transition: .4s;
 }
 
 /* Final das Configurações de Menu Horizontal */
 
+/* Configuração do Footer */
+footer {
+  font-family: 'Franklin Gothic Medium';
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid black;
+  padding: -8.5vh;
+}
+
 /* Início das Configurações das Seções */
+#inicio,
+#parceiros,
+#cursos,
+#contatos,
+#missao,
+#sobre,
+.menu {
+  font-family: 'Franklin Gothic Medium';
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.irTopo,
+.irInicio,
+.irContatos,
+.irCursos,
+.irMissao,
+.irSobre,
+.irParceiros {
+  font-family: 'Franklin Gothic Medium';
+  font-size: 20px;
+  text-align: center;
+}
 
 #inicio {
   height: 35vh;
@@ -63,7 +92,7 @@
 
 #missao {
   height: 30vh;
-  background-color:  cyan;
+  background-color: cyan;
 }
 
 #sobre {
@@ -78,60 +107,182 @@
 
 /* Configurações do Retorno das Âncoras Laterais  */
 
-.irTopo, .irInicio, .irCursos, .irContatos, .irParceiros, .irMisssao, .irSobre, .irFooter {
-  font-size: 12px;
-  /*padding: 1vh;*/
+.irTopo,
+.irInicio,
+.irCursos,
+.irContatos,
+.irParceiros,
+.irMissao,
+.irSobre,
+.irParceiros,
+.irFooter {
+  font-size: 16px;
+  /*padding-top: .7px;*/
   position: fixed;
-  transition: 0.2s;
-  right: 1vh;
+  /*transition: .5s;*/
+  right: 7vh;
   text-decoration: none;
-  width: 70px;
+  width: 95px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 7px;
+  border-radius: 5px;
+  height: 27px;
+  
 }
-
-.irTopo:hover, .irInicio:hover, .irCursos:hover, .irContatos:hover {
+/*
+.irTopo:hover,
+.irInicio:hover,
+.irCursos:hover,
+.irContatos:hover,
+.irMissao:hover,
+.irParceiros:hover,
+.irSobre:hover {
   font-weight: bold;
-  font-size: 17px;
-}
+  font-size: 19px;
+}*/
 
 .irTopo {
-  bottom: 14vh;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 5vh;
+  color: black;
+  background-color: mediumseagreen;
 }
-
+/*
 .irTopo:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-}
+  background-color: darkgreen;
+  color: white
+}*/
 
 .irInicio {
   bottom: 75vh;
-  background-color: bisque;
+  background-color: mediumseagreen;
   color: black;
 }
-
+/*
 .irInicio:hover {
-  background-color: darkorange;
-}
+  background-color: darkgreen;
+  color: white;
+}*/
 
 .irCursos {
-  color: green;
-  background-color: cyan;
-  bottom: 71vh;
+  color: black;
+  background-color: mediumseagreen;
+  bottom: 68vh;
 }
-
+/*
 .irCursos:hover {
-  background-color: darkblue;
-}
+  background-color: darkgreen;
+  color: white;
+}*/
 
 .irContatos {
+  color: black;
+  background-color: mediumseagreen;
+  bottom: 61vh;
+}
+/*
+.irContatos:hover {
+  background-color: darkgreen;
   color: white;
-  background-color: darkmagenta;
-  bottom: 67vh;
+}*/
+
+.irMissao {
+  color: black;
+  background-color: mediumseagreen;
+  bottom: 54vh;
+}
+/*
+.irMissao:hover {
+  background-color: darkgreen;
+  color: white;
+}*/
+
+.irSobre {
+  color: black;
+  background-color: mediumseagreen;
+  bottom: 47vh;
+}
+/*
+.irSobre:hover {
+  background-color: darkgreen;
+  color: white;
+}*/
+
+.irParceiros {
+  color: black;
+  background-color: mediumseagreen;
+  bottom: 40vh;
+}
+/*
+.irParceiros:hover {
+  background-color: darkgreen;
+  color: white;
+}*/
+
+/* Configurações do Aside (Menu Lateral Esquerdo) */
+
+.aside a {
+  position: fixed;
+  left: -135px;
+  transition: .4s;
+  text-align: right;
+  padding-right: 5vh;
+  width: 8.5vw;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  height: 4vh;
+  padding-top: 1.5vh;
 }
 
-.irContatos:hover {
-  background-color: mediumspringgreen;
+.aside a:hover {
+  left: -10px;
+}
+
+.aside2 a {
+  position: fixed;
+  right: -150px;
+  transition: .4s;
+  text-align: left;
+  padding-left: 4vh;
+  padding-top: 7px;
+  width: 10vw;
+  text-decoration: none;
+  font-size: 12pt;
+  border-radius: 5px 0 0 5px;
+}
+
+.aside2 a:hover {
+  right: -35px;
+}
+
+#inicio2 {
+  top: 17vh;
+  background-color: mediumseagreen;
+}
+
+#curso2 {
+  top: 30vh;
+  background-color: mediumseagreen;
+}
+
+#contatos2 {
+  top: 40vh;
+  background-color: mediumseagreen;
+}
+
+#parceiros2 {
+  top: 50vh;
+  background-color: mediumseagreen;
+}
+
+#missao2 {
+  top: 60vh;
+  background-color: mediumseagreen;
+  ;
+}
+
+#sobre2 {
+  top: 70vh;
+  background-color: mediumseagreen;
 }
