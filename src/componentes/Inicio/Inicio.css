@@ -1,0 +1,18 @@
+/*.inicio
+/*.parceiros,
+/*.cursos,
+/*.contatos,
+/*.missao,
+/*.sobre,
+{
+  font-family: 'Franklin Gothic Medium';
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid black;
+  position: relative;
+}*/
+
+.inicio {
+  height: 90vh;
+  background-color: silver;
+}

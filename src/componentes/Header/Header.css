@@ -1,0 +1,312 @@
+/* Configuração do Menu Horizontal */
+
+.menu, .menu2 {
+    height: 9vh;
+    border: 1px solid rgb(214, 46, 16);
+    background-color: rgb(177, 54, 60);
+    padding-bottom: 15px;
+    /*font-size: 16px;*/
+    position: fixed;
+    top: 0;
+    width: 100vw;
+  }
+  
+  .navMenu ul, .navMenu2 ul {
+    text-align: left;
+    margin-left: -40px;
+  }
+  
+  .navMenu li, .navMenu2 li {
+    display: inline;
+  }
+  
+  .navMenu ul li a, .navMenu2 ul li a {
+    padding-left: 4vw;
+    padding-top: 2vh;
+    display: inline-block;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+  }
+  
+  /*.navMenu ul li a:hover {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 25px;
+    /*transition: initial .2s;
+  }*/
+  
+  .navMenu ul li a:hover, .navMenu2 ul li a:hover {
+    color: rgb(221, 158, 158);
+    font-weight: bold;
+    /*font-size: 22px;*/
+    transform: scale(1.3);
+  }
+
+  .menu{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid;
+    position: relative;
+  }
+  .menu2 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid;
+  }
+  
+  /* Final das Configurações de Menu Horizontal */
+  
+  /* Configuração do Footer */
+  footer {
+    font-family: 'Franklin Gothic Medium';
+    /*font-size: 14px;*/
+    text-align: center;
+    border: 1px solid black;
+    padding: -8.5vh;
+  }
+  
+  /* Início das Configurações das Seções */
+  #inicio,
+  #parceiros,
+  #cursos,
+  #contatos,
+  #missao,
+  #sobre
+  {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+  }
+  
+  .irTopo,
+  .irInicio,
+  .irContatos,
+  .irCursos,
+  .irMissao,
+  .irSobre,
+  .irParceiros {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #inicio {
+    height: 35vh;
+    background-color: silver;
+  }
+  
+  #parceiros {
+    height: 50vh;
+    background-color: burlywood;
+  }
+  
+  #cursos {
+    height: 40vh;
+    background-color: yellow;
+  }
+  
+  #contatos {
+    height: 20vh;
+    background-color: green;
+  }
+  
+  #missao {
+    height: 30vh;
+    background-color: cyan;
+  }
+  
+  #sobre {
+    height: 40vh;
+    background-color: brown;
+  }
+  
+  .footer {
+    height: 20vh;
+    background-color: blanchedalmond;
+  }
+  
+  /* Configurações do Retorno das Âncoras Laterais  */
+  
+  .irTopo,
+  .irInicio,
+  .irCursos,
+  .irContatos,
+  .irParceiros,
+  .irMissao,
+  .irSobre,
+  .irParceiros,
+  .irFooter {
+    font-size: 16px;
+    /*padding-top: .7px;*/
+    position: fixed;
+    /*transition: .5s;*/
+    right: 7vh;
+    text-decoration: none;
+    width: 95px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    height: 27px;
+    
+  }
+  /*
+  .irTopo:hover,
+  .irInicio:hover,
+  .irCursos:hover,
+  .irContatos:hover,
+  .irMissao:hover,
+  .irParceiros:hover,
+  .irSobre:hover {
+    font-weight: bold;
+    font-size: 19px;
+  }*/
+  
+  .irTopo {
+    bottom: 5vh;
+    color: black;
+    background-color: mediumseagreen;
+  }
+  /*
+  .irTopo:hover {
+    background-color: darkgreen;
+    color: white
+  }*/
+  
+  .irInicio {
+    bottom: 75vh;
+    background-color: mediumseagreen;
+    color: black;
+  }
+  /*
+  .irInicio:hover {
+    background-color: darkgreen;
+    color: white;
+  }*/
+  
+  .irCursos {
+    color: black;
+    background-color: mediumseagreen;
+    bottom: 68vh;
+  }
+  /*
+  .irCursos:hover {
+    background-color: darkgreen;
+    color: white;
+  }*/
+  
+  .irContatos {
+    color: black;
+    background-color: mediumseagreen;
+    bottom: 61vh;
+  }
+  /*
+  .irContatos:hover {
+    background-color: darkgreen;
+    color: white;
+  }*/
+  
+  .irMissao {
+    color: black;
+    background-color: mediumseagreen;
+    bottom: 54vh;
+  }
+  /*
+  .irMissao:hover {
+    background-color: darkgreen;
+    color: white;
+  }*/
+  
+  .irSobre {
+    color: black;
+    background-color: mediumseagreen;
+    bottom: 47vh;
+  }
+  /*
+  .irSobre:hover {
+    background-color: darkgreen;
+    color: white;
+  }*/
+  
+  .irParceiros {
+    color: black;
+    background-color: mediumseagreen;
+    bottom: 40vh;
+  }
+  /*
+  .irParceiros:hover {
+    background-color: darkgreen;
+    color: white;
+  }*/
+  
+  /* Configurações do Aside (Menu Lateral Esquerdo) */
+  
+  .aside a {
+    position: fixed;
+    left: -135px;
+    transition: .4s;
+    text-align: right;
+    padding-right: 5vh;
+    width: 8.5vw;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    border-radius: 0 5px 5px 0;
+    height: 4vh;
+    padding-top: 1.5vh;
+  }
+  
+  .aside a:hover {
+    left: -10px;
+  }
+  
+  .aside2 a {
+    position: fixed;
+    right: -150px;
+    transition: .4s;
+    text-align: left;
+    padding-left: 4vh;
+    padding-top: 7px;
+    width: 10vw;
+    text-decoration: none;
+    font-size: 12pt;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .aside2 a:hover {
+    right: -35px;
+  }
+  
+  #inicio2 {
+    top: 17vh;
+    background-color: mediumseagreen;
+  }
+  
+  #curso2 {
+    top: 30vh;
+    background-color: mediumseagreen;
+  }
+  
+  #contatos2 {
+    top: 40vh;
+    background-color: mediumseagreen;
+  }
+  
+  #parceiros2 {
+    top: 50vh;
+    background-color: mediumseagreen;
+  }
+  
+  #missao2 {
+    top: 60vh;
+    background-color: mediumseagreen;
+    ;
+  }
+  
+  #sobre2 {
+    top: 70vh;
+    background-color: mediumseagreen;
+  }

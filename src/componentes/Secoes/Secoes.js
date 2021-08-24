@@ -51,19 +51,14 @@ export default function Secoes() {
       <section id="sobre">
         <h3> Sobre </h3>
       </section>
+      
       <aside className="aside2">
         <a className="irTopo" href=".menu"> Topo </a>
-
         <a className="irInicio" href="#inicio"> Início </a>
-
         <a className="irCursos" href="#cursos"> Cursos </a>
-
         <a className="irContatos" href="#contatos"> Contatos </a>
-
         <a className="irParceiros" href="#parceiros"> Parceiros </a>
-
         <a className="irMissao" href="#missao"> Missão </a>
-
         <a className="irSobre" href="#sobre"> Sobre </a>
       </aside>
 

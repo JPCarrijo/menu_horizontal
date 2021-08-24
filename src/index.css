@@ -6,14 +6,15 @@ body {
     sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  position: absolute;
+  position: sticky;
   background-color: rgba(235,243,242,0.993);
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
 body, html {
-  height: 99.9vh;
+  height: 99vh;
   width: 99vw;
+
 }
 
 code {

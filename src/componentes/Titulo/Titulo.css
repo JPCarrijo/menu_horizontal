@@ -1,0 +1,8 @@
+/* Configuração do Componente Título */
+.titulo {
+  height: 8vh;
+  background-color: rgb(166, 245, 159);
+  border: 1px solid ;
+  font-family: 'Franklin Gothic Medium';
+  text-align: center;
+}
